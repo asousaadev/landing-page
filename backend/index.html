@@ -18,38 +18,34 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <a class="navbar-brand m-0 section-title">
+            <h1 class="navbar-brand m-0 section-title fs-2">
                 <i class="bi bi-house-door me-1"></i>
-                Casa da vovó
-            </a>
+                Casa da Vovó
+            </h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#sobre-o-restaurante" class="nav-link">
-                            Home
+                        <a href="#sobre-a-loja" class="nav-link">
+                            Sobre a loja
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#sobre-nos" class="nav-link">
-                            Sobre nós
+                        <a href="#bordados" class="nav-link">
+                            Bordados
+                        </a>
+
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#linha-e-acessorio" class="nav-link">
+                            Crochê e tricô
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#produtos" class="nav-link">
-                            Produtos
-                        </a>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a href="#pecas-e-servicos" class="nav-link">
-                            Peças e serviços
-                        </a>
-                    </li>
-                    <li class="nav-item fw-bold">
-                        <a href="#locacao" class="nav-link">
-                            Locação
+                        <a href="#artesanato" class="nav-link">
+                            Artesanato
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
@@ -61,6 +57,104 @@
             </nav>
         </div>
     </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section>
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/slides/slide-1.jpg" class="img-fluid w-100" alt="linha e agulha de croche">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/slides/slide-2.jpg" class="img-fluid w-100" alt="linha de croche verde">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/slides/slide-3.jpg" class="img-fluid w-100" alt="coracoes de croche coloridos">
+                    </div>a
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" id="sobre-a-loja">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="featurette-heading">Sobre <span class="text-colored">a loja</span></h2>
+                            <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Optio tempore maxime debitis soluta corrupti eveniet tempora a.
+                                Voluptates neque, corrupti blanditiis distinctio maiores aspernatur,
+                                saepe officiis mollitia numquam similique temporibus.
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="img/loja/lifestyle-senior-asian-woman.jpg" class="d-block w-100 rounded shadow-sm"
+                                alt="foto interno do restaurante">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container marketing mt-5" id="bordados">
+                <div class="row">
+                    <h1 class="featurette-heading mb-5 mt-3"> Linha <span class="text-colored">bordados</span> </h1>
+                    <div class="col-lg-4">
+                        
+                        <img src="/backend/img/loja/close-up-wool-texture-design-1.jpg" class="d-block w-100 rounded shadow-sm mb-3" alt="">
+                        <h2 class="section-title">Título <span class="text-colored">um</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, possimus omnis molestiae alias laborum perferendis!
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-secondary">Saiba mais</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="/backend/img/loja/close-up-wool-texture-design-2.jpg" class="d-block w-100 rounded shadow-sm mb-3"  alt="">
+                        <h2 class="section-title">Título <span class="text-colored">dois</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, possimus omnis molestiae alias laborum perferendis!
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-secondary">Saiba mais</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="/backend/img/loja/close-up-wool-texture-design -3.jpg" class="d-block w-100 rounded shadow-sm mb-3" w alt="">
+                        <h2 class="section-title">Título <span class="text-colored">três</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, possimus omnis molestiae alias laborum perferendis!
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-secondary">Saiba mais</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row mb-2">
+                    <div class="col-md-6">
+                        <h1 class="featurette-heading mb-5 mt-3"> Crochê e <span class="text-colored">tricô</span> </h1>
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-25 0 position-relative">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
 
 
 
