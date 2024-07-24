@@ -16,7 +16,7 @@ font-family: Roboto, sans-serif;
 }
 
 .navbar {
-    background-color: #c20d5a66;
+    background-color: #f8baab;
 }
 #cabecalho .nav .nav-link.active,
 .btn-secondary {
@@ -31,7 +31,7 @@ font-family: Roboto, sans-serif;
 #cabecalho .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-artesanato .nav-link.active:hover {
     color: #fff;
 }
 
@@ -49,12 +49,13 @@ font-family: Roboto, sans-serif;
     color: #c20d5a;
 }
 
-#sobre-a-loja {
+#sobre-a-loja,
+#artesanato {
     background-color: #ffe3b066;
 }
 
 
-.nav-cardapio .nav-link.active,
+.nav-artesanato .nav-link.active,
 #fale-conosco button {
     background-color: #c20d5a;
     color: #fff;
@@ -62,8 +63,8 @@ font-family: Roboto, sans-serif;
 
 
 
-.nav-cardapio .nav-link:hover {
- color: #516091;
+.nav-artesanato .nav-link:hover {
+ color: #ff0370;
 }
 
 .social-links li {
